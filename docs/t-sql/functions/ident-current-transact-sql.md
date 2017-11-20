@@ -79,7 +79,7 @@ IDENT_CURRENT( 'table_name' )
 ## <a name="examples"></a>예  
   
 ### <a name="a-returning-the-last-identity-value-generated-for-a-specified-table"></a>1. 지정된 테이블에 대해 마지막으로 생성된 ID 값 반환  
- 다음 예에서는 `Person.Address` 데이터베이스의 `AdventureWorks2012` 테이블에 대해 마지막으로 생성된 ID 값을 반환합니다.  
+ 다음 예에서는 `AdventureWorks2012` 데이터베이스의 `Person.Address` 테이블에 대해 마지막으로 생성된 ID 값을 반환합니다.  
   
 ```  
 USE AdventureWorks2012;  
