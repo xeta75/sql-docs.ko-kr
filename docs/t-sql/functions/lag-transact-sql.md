@@ -54,7 +54,7 @@ LAG (scalar_expression [,offset] [,default])
  *기본값*  
  반환할 때 값을 *scalar_expression* 에서 *오프셋* 은 NULL입니다. 기본값이 지정되어 있지 않으면 NULL이 반환됩니다. *기본* 열, 하위 쿼리 또는 기타 식일 수 있지만 분석 함수 될 수 없습니다. *기본* 호환 되는 형식 이어야 합니다와 *scalar_expression*합니다.  
   
- 통해 **(** [ *partition_by_clause* ] *order_by_clause***)**  
+ OVER **(** [ *partition_by_clause* ] *order_by_clause***)**  
  *partition_by_clause* 함수가 적용 되는 파티션으로 FROM 절에서 생성 한 결과 집합을 나눕니다. 지정하지 않을 경우 쿼리 결과 집합의 모든 행이 단일 그룹으로 취급됩니다. *order_by_clause* 함수를 적용 하기 전에 데이터의 순서를 결정 합니다. 경우 *partition_by_clause* 를 지정 된 파티션에 있는 데이터의 순서를 결정 합니다. *order_by_clause* 가 필요 합니다. 자세한 내용은 참조 [OVER 절 &#40; Transact SQL &#41; ](../../t-sql/queries/select-over-clause-transact-sql.md).  
   
 ## <a name="return-types"></a>반환 형식  
